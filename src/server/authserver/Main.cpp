@@ -101,6 +101,10 @@ extern int main(int argc, char **argv)
 
     sLog->outString("%s (authserver)", _FULLVERSION);
     sLog->outString("<Ctrl-C> to stop.\n");
+    sLog->outString("NETBLUE CORE");
+    sLog->outString("PROYECTO WORLD OF WARCRAFT");
+    sLog->outString("PARA VIVE TU JUEGO");
+    sLog->outString("WWW.VIVETUJUEGO.COM");
     sLog->outString("Using configuration file %s.", cfg_file);
 
     sLog->outDetail("%s (Library: %s)", OPENSSL_VERSION_TEXT, SSLeay_version(SSLEAY_VERSION));
