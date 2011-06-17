@@ -124,17 +124,19 @@ int Master::Run()
     seed1.SetRand(16 * 8);
 
     sLog->outString("%s (worldserver-daemon)", _FULLVERSION);
-    sLog->outString("<Ctrl-C> to stop.\n");
+    sLog->outString("");
+	sLog->outString("	o   o      o      o--o  o                o-o");
+	sLog->outString("	|\\  |      |      |   | |               /	 ");
+	sLog->outString("	| \\ | o-o -o-     O--o  | o  o o-o     O     o-o o-o o-o");
+	sLog->outString("	|  \\| |-'  |      |   | | |  | |-'      \\    | | |   |-'");
+	sLog->outString("	o   o o-o  o      o--o  o o--o o-o       o-o o-o o   o-o");
+	sLog->outString("");
+	sLog->outString("<Ctrl-C> to stop.\n");
 
-    sLog->outString(" ______                       __");
-    sLog->outString("/\\__  _\\       __          __/\\ \\__");
-    sLog->outString("\\/_/\\ \\/ _ __ /\\_\\    ___ /\\_\\ \\ ,_\\  __  __");
-    sLog->outString("   \\ \\ \\/\\`'__\\/\\ \\ /' _ `\\/\\ \\ \\ \\/ /\\ \\/\\ \\");
-    sLog->outString("    \\ \\ \\ \\ \\/ \\ \\ \\/\\ \\/\\ \\ \\ \\ \\ \\_\\ \\ \\_\\ \\");
-    sLog->outString("     \\ \\_\\ \\_\\  \\ \\_\\ \\_\\ \\_\\ \\_\\ \\__\\\\/`____ \\");
-    sLog->outString("      \\/_/\\/_/   \\/_/\\/_/\\/_/\\/_/\\/__/ `/___/> \\");
-    sLog->outString("                                 C O R E  /\\___/");
-    sLog->outString("http://TrinityCore.org                    \\/__/\n");
+    sLog->outString("Bienvenido a NetBlueCore");
+    sLog->outString("Proyecto Vive Tu Juego");
+    sLog->outString("Basado en TrinityCore, MaNGOS");
+    sLog->outString("http://www.vivetujuego.com/");
 
 #ifdef USE_SFMT_FOR_RNG
     sLog->outString("\n");

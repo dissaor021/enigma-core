@@ -100,6 +100,13 @@ extern int main(int argc, char **argv)
     sLog->Initialize();
 
     sLog->outString("%s (authserver)", _FULLVERSION);
+	sLog->outString("");
+	sLog->outString("	o   o      o      o--o  o                o-o");
+	sLog->outString("	|\\  |      |      |   | |               /	 ");
+	sLog->outString("	| \\ | o-o -o-     O--o  | o  o o-o     O     o-o o-o o-o");
+	sLog->outString("	|  \\| |-'  |      |   | | |  | |-'      \\    | | |   |-'");
+	sLog->outString("	o   o o-o  o      o--o  o o--o o-o       o-o o-o o   o-o");
+	sLog->outString("");
     sLog->outString("<Ctrl-C> to stop.\n");
     sLog->outString("Using configuration file %s.", cfg_file);
 
