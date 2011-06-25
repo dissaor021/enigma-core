@@ -792,7 +792,8 @@ void Battleground::EndBattleground(uint32 winner)
         uint32 winner_kills = plr->GetRandomWinner() ? BG_REWARD_WINNER_HONOR_LAST : BG_REWARD_WINNER_HONOR_FIRST;
         uint32 loser_kills = plr->GetRandomWinner() ? BG_REWARD_LOSER_HONOR_LAST : BG_REWARD_LOSER_HONOR_FIRST;
         uint32 winner_arena = plr->GetRandomWinner() ? BG_REWARD_WINNER_ARENA_LAST : BG_REWARD_WINNER_ARENA_FIRST;
-
+		
+        
         // Reward winner team
         if (team == winner)
         {
@@ -813,6 +814,7 @@ void Battleground::EndBattleground(uint32 winner)
                 UpdatePlayerScore(plr, SCORE_BONUS_HONOR, GetBonusHonorFromKill(loser_kills));
         }
 
+		
         plr->ResetAllPowers();
         plr->CombatStopWithPets(true);
 
